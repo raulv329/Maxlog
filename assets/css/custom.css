@@ -1,0 +1,301 @@
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  overflow-x: hidden !important;
+  right: 0;
+  background-color: rgba(239, 239, 239, 0.937254902);
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/imagens-galpao/unidade-01/unidade-01-capa.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#welcome-section article {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 1.3em;
+  margin-top: 80px;
+}
+
+#welcome-section article h1 {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 0.9em;
+}
+
+#welcome-section article p {
+  font-size: 1.5em;
+}
+
+@media (max-width: 576px) {
+  #welcome-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/imagens-galpao/unidade-01/unidade-01-capa.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  #welcome-section article h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .btn {
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 85px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+    background-color: #fff;
+  }
+  #galpoes {
+    margin-top: 15%;
+  }
+  .form-custom {
+    float: none !important;
+    padding: 3em !important;
+    margin-right: 0% !important;
+  }
+  .carousel {
+    width: 100% !important;
+  }
+}
+.nav-link {
+  color: #95191d;
+  border-radius: 20px;
+  font-size: 1.1em;
+}
+
+.nav-link:hover {
+  background-color: #95191d;
+  color: #fff;
+  transition: 1ms;
+}
+
+.bg-maxlog {
+  background-color: #95191d !important;
+}
+
+.color-maxlog {
+  color: #95191d !important;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 1em;
+  margin-bottom: 85px;
+  margin-top: 15px;
+}
+
+.btn-custom {
+  border-radius: 20px;
+  padding: 1em;
+  margin-top: 15px;
+}
+
+#sobre-nos {
+  margin-top: 5%;
+}
+
+#servicos {
+  margin-top: 15%;
+}
+
+#galpoes {
+  margin-top: 5%;
+}
+
+#unidades article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: -200px;
+}
+
+#contato {
+  margin-top: 10%;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.filter-custom {
+  filter: brightness(60%);
+}
+
+.filter-custom:hover {
+  filter: brightness(100%);
+}
+
+.card {
+  box-shadow: 10px 10px 5px #fff;
+}
+
+.card-title {
+  text-align: center;
+  color: #95191d;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: left;
+}
+
+#unidades-section {
+  width: 100%;
+  height: 65vh;
+  background-image: url("../img/dji_0969.JPG");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#unidade-01-section {
+  width: 100%;
+  height: 85vh;
+  background-image: url("../img/imagens-galpao/unidade-01/unidade-01-capa.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.btn-outline-danger {
+  margin-bottom: 0px;
+}
+
+#unidade-01-section article {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 1.3em;
+  margin-top: 80px;
+}
+
+#unidade-01-section article h1 {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 1.3em;
+}
+
+#unidade-01-section article p {
+  font-size: 1.5em;
+}
+
+#unidade-02-section {
+  width: 100%;
+  height: 85vh;
+  background-image: url(".../img/imagens-galpao/unidade-02/unidade-02-capa.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.btn-outline-danger {
+  margin-bottom: 0px;
+}
+
+#unidade-02-section article {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 1.3em;
+  margin-top: 80px;
+}
+
+#unidade-02-section article h1 {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 1.3em;
+}
+
+#unidade-02-section article p {
+  font-size: 1.5em;
+}
+
+#unidade-03-section {
+  width: 100%;
+  height: 85vh;
+  background-image: url(".../img/imagens-galpao/unidade-03/galpao-capa.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.btn-outline-danger {
+  margin-bottom: 0px;
+}
+
+#unidade-03-section article {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 1.3em;
+  margin-top: 80px;
+}
+
+#unidade-03-section article h1 {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 1.3em;
+}
+
+#unidade-03-section article p {
+  font-size: 1.5em;
+}
+
+.form-custom {
+  box-shadow: 2px 2px 10px 10px rgb(139, 139, 139);
+  padding: 2em;
+  border-radius: 25px;
+  margin-right: 5%;
+  height: 600px;
+}
+
+#infos {
+  margin-top: 7%;
+}
+
+.btn-custom {
+  background-color: #95191d;
+  color: #fff;
+  border: #95191d;
+}
+
+/*# sourceMappingURL=custom.css.map */
